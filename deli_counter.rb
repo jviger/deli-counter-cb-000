@@ -12,6 +12,7 @@ def line(katz_deli)
     katz_deli.each do |x|
       line_order = line_order << "#{katz_deli.index(name) + 1}. #{x} "
     end
+  end
   
 end
 
