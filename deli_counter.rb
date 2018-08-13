@@ -12,8 +12,9 @@ def line(katz_deli)
     katz_deli.each do |x|
       line_order = line_order << "#{katz_deli.index(name) + 1}. #{x} "
     end
+    puts message << line_order
   end
-  return message << line_order
+  
 end
 
 def take_a_number(katz_deli, name)
