@@ -2,11 +2,13 @@
 
 katz_deli = []
 
-def line(deli)
+def line(katz_deli)
   
-  if deli.length == 0 
+  if katz_deli.length == 0 
     puts "The line is currently empty."
-  end
+  else 
+    message = 
+    puts "The line is currently:"
   
 end
 
