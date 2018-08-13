@@ -13,7 +13,7 @@ def line(katz_deli)
       line_order = line_order << "#{katz_deli.index(name) + 1}. #{x} "
     end
   end
-  
+  return message << line_order
 end
 
 def take_a_number(katz_deli, name)
