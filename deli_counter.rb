@@ -9,7 +9,8 @@ def line(katz_deli)
   else 
     message = "The line is currently:"
     line_order = []
-    
+    katz_deli.each do |x|
+      line_order.push('#{')
   
 end
 
