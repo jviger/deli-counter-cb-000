@@ -10,7 +10,7 @@ def line(katz_deli)
     message = "The line is currently:"
     line_order = ""
     katz_deli.each do |x|
-      line_order = line_order << "#{katz_deli.index(x) + 1}. #{x} "
+      line_order = line_order << " #{katz_deli.index(x) + 1}. #{x} "
     end
     puts message << line_order
   end
